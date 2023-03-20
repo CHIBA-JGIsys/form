@@ -1,0 +1,101 @@
+.mainVisual {
+  height: 36.5vw;
+  min-height: 540px;
+  overflow: hidden;
+  background: url(../../public/img/fvbg.png) 100% / cover no-repeat;
+}
+.inner {
+  display: none;
+}
+.embeddedCta {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .mainVisual {
+    min-height: 456.5px;
+    overflow: hidden;
+    background: url(../../public/img/res_fvbg.png) 100% / cover no-repeat;
+  }
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 441px;
+    position: relative;
+  }
+  .mvTitle {
+    margin-top: 75px;
+    text-align: center;
+    transform: matrix(1, -0.1, 0, 1, 0, 0);
+  }
+  .sub {
+    font-size: 3.5rem;
+    line-height: 1.6;
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .mvTitle > .main {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+    color: #ffffff;
+  }
+  .highlight {
+    font-size: 4rem;
+    padding: 0px 2px;
+    margin-right: 6px;
+    color: #fff;
+    background: linear-gradient(to right, #ff4d23, #ff4351);
+  }
+  .embeddedCta {
+    position: relative;
+    margin: -140px 16px 0;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+  }
+  .heading {
+    display: block;
+    width: 282px;
+    margin: 18px auto 0;
+  }
+  .heading img {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    display: block;
+    width: 282px;
+    margin: 18px auto 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #1a742c;
+  }
+  .text span {
+    font-weight: 600;
+  }
+  .cv {
+    display: block;
+    width: 340px;
+    margin: auto;
+  }
+  .cv img {
+    width: 100%;
+    height: auto;
+  }
+  .textsm {
+    display: block;
+    width: 282px;
+    margin: 0px auto 21px;
+    text-align: center;
+    font-size: 10px;
+    color: #1a742c;
+  }
+}

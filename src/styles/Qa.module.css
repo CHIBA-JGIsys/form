@@ -1,0 +1,162 @@
+.qa {
+  width: 100%;
+  background-color: #f9f7f5;
+  margin-top: 120px;
+  padding-bottom: 130px;
+}
+
+.qa > .inner {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.qa > .inner > .title {
+  width: 475px;
+  margin: 18px auto 0;
+  padding-top: 78px;
+}
+.qa > .inner > .title > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.qa > .inner > .list {
+  width: 865px;
+  margin: 64px auto 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+.qa > .inner > .list > .itemlist {
+  margin-top: 26px;
+}
+
+.accordionWrapper {
+  margin-top: 30px;
+  background: #fff;
+  border: 1px solid #d3d6d4;
+}
+
+.accordionWrapper > .title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  font-size: 1.8rem;
+  line-height: 1;
+  letter-spacing: 0.1394444444em;
+  cursor: pointer;
+  background: #fff;
+}
+
+.accordionWrapper > .title > .mark {
+  margin: 0 32px 0 8px;
+  font-size: 4rem;
+  font-weight: 700;
+    color: #9ac829;
+
+}
+
+.iconWrapper {
+  position: absolute;
+  right: 50px;
+  width: 39px;
+  height: 39px;
+}
+
+.iconWrapper > img {
+  position: absolute;
+  width: 100%;
+}
+
+.descriptionArea {
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  overflow: hidden;
+  background: #fff;
+  border-top: 1px solid #d3d6d4;
+  transition: height 0.1s ease-out;
+}
+
+.descriptionArea > .answer {
+  display: flex;
+  align-items: center;
+  min-height: 93px;
+  max-height: 160px;
+  font-size: 1.8rem;
+  line-height: 1.5555555556;
+  letter-spacing: 0.1394444444em;
+}
+
+.descriptionArea > .answer > .mark {
+  margin: 0 32px 0 8px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .qa {
+
+  padding-bottom: 50px;
+}
+  .qa > .inner {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .qa > .inner > .title {
+    width: 70%;
+    margin: 18px auto 0;
+  }
+  .qa > .inner > .list {
+    width: 350px;
+    margin: 32px auto 0;
+    list-style-type: none;
+    list-style: none;
+  }
+  .accordionWrapper > .title {
+    font-size: 1.5rem;
+    text-align: left;
+    letter-spacing: 1px;
+  }
+  .accordionWrapper > .title > .mark {
+    margin: 0 10px 0 8px;
+    font-size: 2.5rem;
+  }
+  .iconWrapper {
+    position: absolute;
+    right: 18px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .iconWrapper > img {
+    position: absolute;
+    width: 100%;
+  }
+  .descriptionArea {
+
+  padding: 12px 24px 12px 12px;
+
+}
+  .descriptionArea > .answer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  min-height: 93px;
+  max-height: 160px;
+  font-size: 1.5rem;
+  line-height: 1.5555555556;
+  letter-spacing: 1px;
+}
+
+.descriptionArea > .answer > .mark {
+  margin: 0 10px 0 20px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+}

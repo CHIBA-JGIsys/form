@@ -1,0 +1,25 @@
+.satisfaction {
+  padding: 64px 0 116px;
+  text-align: center;
+}
+
+.satisfaction > .area {
+  position: relative;
+  margin-top: 125px;
+}
+
+.satisfaction > .area img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .satisfaction {
+    padding: 32px 0 58px;
+    text-align: center;
+  }
+  .satisfaction > .area {
+    position: relative;
+    margin-top: 15px;
+  }
+}

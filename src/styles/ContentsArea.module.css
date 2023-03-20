@@ -1,0 +1,74 @@
+.contentsArea {
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+
+.contentsArea > .logoArea {
+  display: flex;
+  justify-content: center;
+}
+
+.contentsArea > .logoArea > .area {
+  width: 221px;
+}
+
+.contentsArea > .logoArea > .area > img {
+  width: 221px;
+  margin-top: 12px;
+}
+
+.contentsArea > .title {
+  width: 699px;
+  margin: 18px auto 0;
+}
+
+.contentsArea > .title > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.contentsArea > .contents {
+  margin-top: 100px;
+}
+
+.contentsArea > .contents > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .contentsArea {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+.contentsArea > .contents {
+  margin-top: 30px;
+}
+  .contentsArea > .logoArea > .area {
+    width: 88px;
+  }
+  .contentsArea > .logoArea > .area > img {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .contentsArea > .title {
+    width: 100%;
+    margin: 18px auto 0;
+  }
+
+  .contentsArea > .title > img {
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}

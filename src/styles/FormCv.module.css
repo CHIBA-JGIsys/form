@@ -1,0 +1,14 @@
+.div {
+  max-width: 863px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 32%);
+}
+
+@media screen and (max-width: 767px) {
+  .div {
+    max-width: 90%;
+  }
+}

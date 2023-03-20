@@ -1,0 +1,27 @@
+.twitterarea {
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+
+.twitterarea > .title {
+  width: 699px;
+  margin: 18px auto 89px;
+}
+
+.twitterarea > .title > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .twitterarea {
+    width: 100%;
+  }
+  .twitterarea > .title {
+    width: 320px;
+  }
+}

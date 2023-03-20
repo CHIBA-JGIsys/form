@@ -1,0 +1,20 @@
+.vision {
+  padding: 0;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.vision > .area {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.vision > .area img {
+  width: 100%;
+  height: auto;
+  display: block; /* 画像の下の余白を解消する */
+}

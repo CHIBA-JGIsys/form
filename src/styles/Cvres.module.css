@@ -1,0 +1,37 @@
+.cv {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cv {
+    display: block;
+  }
+
+  .cvTxt1 {
+    display: block;
+    width: 282px;
+    margin: 50px auto 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #1a742c;
+    font-weight: 600;
+  }
+  .btn {
+    display: block;
+    width: 350px;
+    margin: auto;
+  }
+  .btn img {
+    width: 100%;
+    height: auto;
+  }
+  .cvTxt2 {
+    display: block;
+    width: 282px;
+    margin: 0px auto 50px;
+    text-align: center;
+    font-size: 10px;
+    color: #1a742c;
+    font-weight: 600;
+  }
+}

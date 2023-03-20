@@ -4,13 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "compression": "^1.7.4",
+    "express": "^4.18.2",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }

@@ -1,0 +1,52 @@
+.adviser {
+  width: 100%;
+  background-color: #f9f7f5;
+}
+
+.adviser > .inner {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.adviser > .inner > .title {
+  width: 382px;
+  margin: 18px auto 0;
+  padding-top: 78px;
+}
+.adviser > .inner > .title > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.adviser > .inner > .adviserimg {
+  position: relative;
+  top: -50px;
+  margin-bottom: 50px;
+}
+
+.adviser > .inner > .adviserimg > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .adviser > .inner {
+    width: 348px;
+    padding-bottom: 60px;
+  }
+  .adviser > .inner > .title {
+    width: 278px;
+    padding-top: 31px;
+  }
+  .adviser > .inner > .adviserimg {
+  position: relative;
+  top: 30px;
+  margin-bottom: 40px;
+  
+}
+}

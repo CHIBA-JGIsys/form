@@ -1,0 +1,5 @@
+# Rewrite URLs
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /irodasnext/index.html [L,QSA]

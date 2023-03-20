@@ -1,0 +1,59 @@
+.inner {
+  max-width: 1200px;
+  padding: 40px;
+  margin: auto;
+  color: #fff;
+}
+
+.linkList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.linkList > .item {
+  font-size: 1.6rem;
+  line-height: 1.48;
+  color: #fff;
+}
+
+.linkList > .item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .linkList {
+    gap: 100px;
+    justify-content: center;
+  }
+  .inner p {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .linkList {
+    gap: 20px;
+    justify-content: center;
+  }
+  .inner {
+    max-width: 100%;
+    padding: 40px;
+  }
+  .linkList > .item {
+    font-size: 1.1rem;
+  }
+  .inner p {
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

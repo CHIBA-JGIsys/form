@@ -1,0 +1,32 @@
+.cvarea {
+  position: relative;
+  text-align: center;
+  width: 900px;
+  margin: auto;
+}
+
+.cvarea > .title {
+  width: 574px;
+  margin: 100px auto 89px;
+}
+
+.cvarea > .title > img {
+  width: 100%;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .cvarea {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .cvarea > .title {
+    width: 252px;
+    margin: 50px auto 50px;
+  }
+}
