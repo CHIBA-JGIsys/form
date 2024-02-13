@@ -1,0 +1,13 @@
+.step {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 0px;
+}
+
+.step > img {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+

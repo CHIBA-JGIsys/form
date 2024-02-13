@@ -39,6 +39,7 @@
 @media screen and (max-width: 767px) {
   .catchAreares {
     display: block;
+    margin-top: 80px;
   }
   .catchAreares > .logo {
     display: block;

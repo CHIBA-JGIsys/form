@@ -1,6 +1,25 @@
 .header {
   display: none;
 }
+.headerT {
+  display: none;
+}
+.syukatsuhack{
+  display: none;
+}
+.containertest{
+    max-width: 375px;
+  margin: 0 auto;
+  background-color: #604C4C;
+}
+.mainContainer008 {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.mainContainerRes008{
+  display: none;
+}
 
 .main {
   display: block;
@@ -12,6 +31,9 @@
   position: relative;
   padding-top: 3px;
 }
+  .resblock{
+    display: none;
+  }
 
 .efarea {
   position: relative;
@@ -21,8 +43,10 @@
 .contentsArea {
   width: calc(100% - 25vw);
 }
+.hackhead{
+  display: none;
+}
 @media screen and (min-width: 768px) {
-
   .topContents {
     position: relative;
     display: flex;
@@ -33,6 +57,20 @@
 }
 
 @media screen and (max-width: 767px) {
+  .hackhead {
+    display: block;
+    height: 31px;
+    background-color:#604C4C ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'NotosansJP', sans-serif;
+    color: #fff;
+    letter-spacing: 1.2px;
+  }
   .efarea {
     display: none;
   }
@@ -41,6 +79,15 @@
     width: 80px;
     margin: 8px auto 8px;
   }
+  .syukatsuhack{
+    display: block;
+    width: 150px;
+    margin: 8px auto 8px;
+  }
+  .syukatsuhack img{
+    width: 100%;
+    height: auto;
+  }
   .header img {
     width: 100%;
     height: auto;
@@ -48,4 +95,44 @@
   .contentsArea {
     width: 100%;
   }
+  .headerT {
+    display: block;
+    width: 318px;
+    margin: 8px;
+  }
+  .headerT img {
+    width: 100%;
+    height: auto;
+  }
+  .resnone{
+    display: none;
+  }
+  .resblock{
+    display: block;
+  }
+  .mainContainer008 {
+  display: none;
+
+}
+
+.mainContainerRes008{
+  display: block;
+}
+
+}
+
+
+
+.formcomponentsContainer_res{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .formcomponentsContainer{
+  display: none;
+}
+
+.formcomponentsContainer_res{
+  display: block;
+}
 }

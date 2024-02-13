@@ -31,6 +31,26 @@
     font-size: 15px;
     line-height: 15px;
   }
+  .slick-dots {
+    bottom: -30px;
+  }
+  /* Slick Sliderのスライド要素に対するスタイル */
+  .slick-slide {
+    opacity:  1; /* 左右のスライドの透明度を設定 */
+    transition: all 0.3s; /* トランジション効果を設定 */
+  }
+
+  /* 中央のスライドに対するスタイル */
+  .slick-slide.slick-center {
+    opacity: 1; /* 中央のスライドの透明度を設定 */
+    transform: scale(1.1); /* 中央のスライドの拡大率を設定 */
+  }
+
+  /* Slick Sliderの画像要素に対するスタイル */
+  .slick-slide img {
+    width: 100%; /* 画像の幅を設定 */
+    object-fit: cover; /* 画像が要素にフィットするように設定 */
+  }
 }
 
 /* 

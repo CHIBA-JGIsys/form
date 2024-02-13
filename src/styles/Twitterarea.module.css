@@ -23,5 +23,7 @@
   }
   .twitterarea > .title {
     width: 320px;
+    margin: 18px auto 20px;
+
   }
 }

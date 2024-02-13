@@ -1,0 +1,12 @@
+.twitterarea {
+  width: 100%;
+}
+.twitterarea > .title {
+  width: 80%;
+  margin: 60px auto 20px;
+}
+.twitterarea > .title > img {
+  width: 100%;
+  height: auto;
+  backface-visibility: hidden;
+}

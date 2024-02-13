@@ -31,6 +31,13 @@
 .embeddedEfPc > .small {
   font-size: 1.6rem;
 }
+.embeddedEfPc > .small > span {
+    font-weight: 400;
+      font-size: 1.6rem;
+
+
+color: #1a742c;
+}
 
 .embeddedEfPc > .title > img {
   text-align: center;
@@ -44,7 +51,11 @@
 }
 
 .embeddedEfPc > .text {
+  font-weight: 600;
+  color: #F85D38;
   margin: 0;
+  font-size: 2.3rem;
+  line-height: 0.8;
 }
 
 @media screen and (max-width: 1248px) {

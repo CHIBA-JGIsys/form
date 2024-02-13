@@ -1,0 +1,79 @@
+  .catchAreares {
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+  }
+
+
+  .catchAreares > .title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.7;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  .catchAreares > .title > span {
+    color: #ff3f00;
+  }
+  .catchAreares > .companyDir {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .catchAreares > .companyDir img {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+  }
+  .catchAreares > .desc {
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #333333;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+  }
+  .catchAreares > .desc > span {
+    color: #ff3f00;
+  }
+  .catchAreares > .problem {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .catchAreares > .problem img {
+    width: 100%;
+    height: auto;
+  }
+  .catchAreares .cvTxt1 {
+    display: block;
+    width: 282px;
+    margin: 50px auto 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #1a742c;
+    font-weight: 600;
+  }
+  .catchAreares .btn {
+    display: block;
+    width: 350px;
+    margin: auto;
+  }
+  .catchAreares .btn img {
+    width: 100%;
+    height: auto;
+  }
+  .catchAreares .cvTxt2 {
+    display: block;
+    width: 282px;
+    margin: 0px auto 50px;
+    text-align: center;
+    font-size: 10px;
+    color: #1a742c;
+        font-weight: 600;
+
+  }

@@ -1,0 +1,141 @@
+.header {
+  display: none;
+}
+.headerT {
+  display: none;
+}
+.syukatsuhack {
+  display: none;
+}
+.containertest {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: #604c4c;
+}
+.mainContainer008 {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.mainContainerRes008 {
+  display: none;
+}
+
+.main {
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  background: #333;
+  position: relative;
+  padding-top: 3px;
+}
+.resblock {
+  display: none;
+}
+
+.efarea {
+  position: relative;
+  width: 42.84vw;
+}
+.contentsArea {
+  /* width: calc(100% - 42.84vw); */
+  position: relative;
+  left: 42.84vw;
+  min-width: 375px;
+  width: 34.44vw;
+}
+.hackhead {
+  display: none;
+}
+@media screen and (max-width: 1248px) {
+  .contentsArea {
+    /* width: calc(100% - 42.84vw); */
+    position: relative;
+    left: 0;
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 586px;
+
+    width: 100%;
+  }
+}
+
+/* 
+@media screen and (max-width: 767px) {
+  .hackhead {
+    display: block;
+    height: 31px;
+    background-color: #604c4c;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'NotosansJP', sans-serif;
+    color: #fff;
+    letter-spacing: 1.2px;
+  }
+  .efarea {
+    display: none;
+  }
+  .header {
+    display: block;
+    width: 80px;
+    margin: 8px auto 8px;
+  }
+  .syukatsuhack {
+    display: block;
+    width: 150px;
+    margin: 8px auto 8px;
+  }
+  .syukatsuhack img {
+    width: 100%;
+    height: auto;
+  }
+  .header img {
+    width: 100%;
+    height: auto;
+  }
+  .contentsArea {
+    width: 100%;
+  }
+  .headerT {
+    display: block;
+    width: 318px;
+    margin: 8px;
+  }
+  .headerT img {
+    width: 100%;
+    height: auto;
+  }
+  .resnone {
+    display: none;
+  }
+  .resblock {
+    display: block;
+  }
+  .mainContainer008 {
+    display: none;
+  }
+
+  .mainContainerRes008 {
+    display: block;
+  }
+}
+
+.formcomponentsContainer_res {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .formcomponentsContainer {
+    display: none;
+  }
+
+  .formcomponentsContainer_res {
+    display: block;
+  }
+} */

@@ -79,6 +79,9 @@
     color: #1a742c;
   }
   .text span {
+    color: #F85D38;
+    font-size: 2rem;
+
     font-weight: 600;
   }
   .cv {

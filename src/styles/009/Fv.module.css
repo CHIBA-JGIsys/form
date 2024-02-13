@@ -1,0 +1,149 @@
+.mainVisual {
+  width: 100%;
+  position: relative;
+}
+.mainVisual .mainVisualImg img {
+  width: 100%;
+}
+
+.mainVisualImg2 {
+  position: absolute;
+  width: 41.6%;
+  min-width: 156px;
+  bottom: -30px;
+  right: 10px;
+  z-index: 1;
+}
+
+.mainVisual .mainVisualImg2 img {
+  width: 100%;
+}
+
+.inner {
+  display: none;
+}
+.embeddedCta {
+  position: relative;
+  margin: -10px 16px 0;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  display: block;
+}
+
+.embeddedCtaInner{
+  margin: 20px;
+}
+
+.embeddedCtaInnerTopTxt{
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f85d38;
+  margin: 0;
+}
+.embeddedCtaInnerBottomTxt{
+  width: 90%;
+  min-width: 336px;
+  margin: 10px auto;
+
+}
+.embeddedCtaInnerBottomTxt img{
+  width: 100%;
+}
+.embeddedCtaInnerBottomTxt2{
+  text-align: center;
+  font-size: 1.6rem;
+  color: #1A742C;
+}
+
+@media screen and (max-width: 767px) {
+  /* .mainVisual {
+    min-height: 456.5px;
+    overflow: hidden;
+  }
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 441px;
+    position: relative;
+  }
+  .mvTitle {
+    margin-top: 75px;
+    text-align: center;
+    transform: matrix(1, -0.1, 0, 1, 0, 0);
+  }
+  .sub {
+    font-size: 3.5rem;
+    line-height: 1.6;
+    display: block;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+  .mvTitle > .main {
+    margin-top: 10px;
+    font-size: 3.5rem;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+    color: #ffffff;
+  }
+  .highlight {
+    font-size: 4rem;
+    padding: 0px 2px;
+    margin-right: 6px;
+    color: #fff;
+    background: linear-gradient(to right, #ff4d23, #ff4351);
+  }
+  .embeddedCta {
+    position: relative;
+    margin: -140px 16px 0;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    display: block;
+  }
+  .heading {
+    display: block;
+    width: 282px;
+    margin: 18px auto 0;
+  }
+  .heading img {
+    width: 100%;
+    height: auto;
+  }
+  .text {
+    display: block;
+    width: 282px;
+    margin: 18px auto 5px;
+    text-align: center;
+    font-size: 12px;
+    color: #1a742c;
+  }
+  .text span {
+    color: #F85D38;
+    font-size: 2rem;
+
+    font-weight: 600;
+  }
+  .cv {
+    display: block;
+    width: 340px;
+    margin: auto;
+  }
+  .cv img {
+    width: 100%;
+    height: auto;
+  }
+  .textsm {
+    display: block;
+    width: 282px;
+    margin: 0px auto 21px;
+    text-align: center;
+    font-size: 10px;
+    color: #1a742c;
+  } */
+}
